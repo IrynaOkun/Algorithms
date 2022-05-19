@@ -8,8 +8,6 @@ public class AscendingSequence {
 
             int[] result = new int[((end - start)/step)+1];
 
-
-
 //проходим по индексам
             for(int i = 0; i < result.length; i++) {
                 if (start <= end) {
